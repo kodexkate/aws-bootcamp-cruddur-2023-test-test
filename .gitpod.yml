@@ -1,16 +1,3 @@
-image:
-  file: .gitpod.Dockerfile
-
-github:
-  prebuilds:    
-    master: true    
-    branches: true    
-    pullRequests: true    
-    pullRequestsFromForks: false    
-    addCheck: true    
-    addComment: false    
-    addBadge: false
-
 tasks:      
   - name: Workspace Initialization
     env:
